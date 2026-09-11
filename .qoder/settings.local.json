@@ -272,7 +272,8 @@
       "Bash(du -sh _sources/yeasy/ && echo && find _sources/yeasy -name \"*.md\" | wc -l && echo \"个 MD 文件\")",
       "Bash(rm -rf _sources/yeasy/)",
       "Bash(find /Users/allengaller/Documents/GitHub/ai-guru-global/ai-guru-database -type d -not -path '*/\\\\.*' -not -path '*/node_modules*' | sort | head -100)",
-      "Bash(ls -la /Users/allengaller/Documents/GitHub/ai-guru-global/ai-guru-database/.env 2>/dev/null; echo \"---\"; ls -la /Users/allengaller/Documents/GitHub/ai-guru-global/.env 2>/dev/null; echo \"---\"; ls -la /Users/allengaller/Documents/GitHub/ai-guru-global/ai-guru-database/.env* 2>/dev/null; echo \"---\"; ls -la ~/.obsidian-wiki/config 2>/dev/null; echo \"---\"; ls -la ~/.obsidian-wiki/.env 2>/dev/null; echo \"---\"; ls -la ~/.obsidian-wiki/ 2>/dev/null)"
+      "Bash(ls -la /Users/allengaller/Documents/GitHub/ai-guru-global/ai-guru-database/.env 2>/dev/null; echo \"---\"; ls -la /Users/allengaller/Documents/GitHub/ai-guru-global/.env 2>/dev/null; echo \"---\"; ls -la /Users/allengaller/Documents/GitHub/ai-guru-global/ai-guru-database/.env* 2>/dev/null; echo \"---\"; ls -la ~/.obsidian-wiki/config 2>/dev/null; echo \"---\"; ls -la ~/.obsidian-wiki/.env 2>/dev/null; echo \"---\"; ls -la ~/.obsidian-wiki/ 2>/dev/null)",
+      "Bash(ls \"/Users/allengaller/Documents/GitHub/ai-guru-global/ai-guru-database/16_编程/07_OpenCode_开源编程/\" && echo \"===\" && find \"/Users/allengaller/Documents/GitHub/ai-guru-global/ai-guru-database/16_编程\" -iname \"*qa*\" -o -iname \"*quick*\" | head -20)"
     ]
   }
 }
